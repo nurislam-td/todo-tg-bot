@@ -16,14 +16,13 @@ git clone https://github.com/nurislam-td/em-path_backend.git
 for example run command
 
 ```shell
-exoprt MODE=DEV
-exoprt BOT_TOKEN=<past your bot api key>
-exoprt PYTHONPATH=$PYTHONPATH:$(pwd)/. # if modul named app not defined
-exoprt DB_NAME=todo_tg_bot_db
-exoprt DB_USER=username
-exoprt DB_PASSWORD=some-random-pass
-exoprt DB_HOST=localhost
-exoprt DB_PORT=5432
+export MODE=DEV
+export BOT_TOKEN=<past your bot api key>
+export DB_NAME=todo_tg_bot_db
+export DB_USER=username
+export DB_PASSWORD=some-random-pass
+export DB_HOST=localhost
+export DB_PORT=5432
 ```
 
 **or past this variables in .env file** (without "export" of course )
