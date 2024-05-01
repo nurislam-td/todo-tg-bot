@@ -3,7 +3,7 @@
 - add tasks to task list
 - show task list
 
-# Get start
+# To launch the application
 
 #### Clone git repo
 
