@@ -3,6 +3,9 @@
 - add tasks to task list
 - show task list
 
+**bot links**
+https://t.me/anverali_td_bot
+
 # To launch the application
 
 #### Clone git repo
@@ -25,7 +28,7 @@ export DB_HOST=localhost
 export DB_PORT=5432
 ```
 
-**or past this variables in .env file** (without "export" of course )
+**or past this variables in .env file** (without "export")
 
 #### Install docker, docker-compose if you don't have one and run
 
